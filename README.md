@@ -6,4 +6,6 @@ The Brownian Motion is a physics phenomenon. First described by Robert Brown in 
 
 Brownian Motion in a nutshell: when there is a large amount of random variables interacting with some system, its impossible to predict the system variations, but we can see that these variations are proportional to the time we spent analysing the system. In stock market context, it's known as Wiener process.
 
-Here I analyze shares of some Brazilian companies, extracted from Bovespa's historical quotation data. This data can be downloaded from webpages like b3.com.br.
+Here I use python 3.7 to analyze shares of some Brazilian companies, extracted from Bovespa's historical quotation data. This data can be downloaded from webpages like b3.com.br.
+
+Needed packages and libraries: Bovespa (https://github.com/thypad/bovespa.git), NumPy, Pandas, and MatplotLib.
