@@ -1,11 +1,10 @@
-# Brownian-Motion-at-the-StockMarket
+# Movimento Browniano - uma percepção no Mercado de ações
 
-Important information: This is my first repository, and I'm doing it to learn Git system. I'm gonna update it once in a while, for practicing and developing IT skills (and english writing, I guess).
+Este é meu primeiro repositório, e está sendo feito para meu aprendizado do sistema Git. Vou atualizá-lo ocasionalmente, para manter uma prática nas habilidades de TI e de análise de dados.
 
-The Brownian Motion is a physics phenomenon. First described by Robert Brown in 1827, was first explained by Albert Einstein in 1905, by using statistical tools. Since, it has been used for quantum mechanics studies, and other things, like modelling the Stock Market.
+O movimento browniano é um fenômeno físico, descrito pela primeira vez pelo botânico Robert Brown, ao observar movimentos aleatórios de grãos-de-pólen sobre água. A primeira explicação deste fenômeno foi realizada pelo físico Albert Einstein, em 1905. Para tal, ele utilizou o conceito de inumeras colisões entre átomos de água, e a variação quadrática média da posição dos grãos. A aplicação deste comportamento na bolsa de valores é conhecido como processo de Wiener.
 
-Brownian Motion in a nutshell: when there is a large amount of random variables interacting with some system, its impossible to predict the system variations, but we can see that these variations are proportional to the time we spent analysing the system. In stock market context, it's known as Wiener process.
+Pacotes e bibliotecas utilizadas: Bovespa (https://github.com/thypad/bovespa.git), NumPy, Pandas, e MatplotLib. O estudo foi realizado na linguagem Python, versão 3.8.
 
-Here I use python 3.7 to analyze shares of some Brazilian companies, extracted from Bovespa's historical quotation data. This data can be downloaded from webpages like b3.com.br.
+Para este repositório foi utilizado dados das ações de algumas empresas brasileiras. Estes dados podem ser extraídos  da cotação histórica da Bovespa, disponível em alguns sites, como b3.com.br.
 
-Needed packages and libraries: Bovespa (https://github.com/thypad/bovespa.git), NumPy, Pandas, and MatplotLib.
